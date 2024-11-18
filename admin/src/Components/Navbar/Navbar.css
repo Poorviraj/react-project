@@ -1,0 +1,40 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 60px;
+    box-shadow: 0 1px 3px -2px #000;
+    margin-bottom: 1px;
+    background: white;
+    background-image: url('../../assets/banner1.png');
+    background-repeat: no-repeat;
+  background-size: auto;
+  background-position: center;
+}
+
+.heading{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.nav-logo{
+    height: 60px;
+    width: 120px;
+}
+
+.nav-profile{
+    width: 75px;
+    border-radius: 50%;
+}
+
+@media(max-width:800px){
+    .navbar{
+        padding: 15px 30px;
+    }
+    .nav-logo{
+        width: 150px;
+    }
+    .nav-profile{
+        width: 60px;
+    }
+}

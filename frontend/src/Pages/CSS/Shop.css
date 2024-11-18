@@ -1,0 +1,4 @@
+.abc {
+    background: rgb(231,175,135);
+background: linear-gradient(90deg, rgba(231,175,135,1) 0%, rgba(207,199,181,1) 49%, rgba(231,175,135,1) 100%);
+}
